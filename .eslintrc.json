@@ -4,7 +4,8 @@
         // "plugin:unicorn/recommended"
     ],
     "plugins": [
-        "promise"
+        "promise",
+        "truffle"
         // "import"
     ],
     "rules": {
@@ -22,7 +23,9 @@
     },
     "env": {
         "node": true,
-        "jest": true
+        "jest": true,
+        "mocha": true, // for test files
+        "truffle/globals": true // same as "truffle/truffle": true
     },
     "parser": "babel-eslint",
     "parserOptions": {

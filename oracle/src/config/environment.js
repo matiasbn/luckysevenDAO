@@ -7,7 +7,7 @@ dotenv.config({
 })
 
 const environmentVarsSchema = Joi.object({
-  // HELLO_WORLD: Joi.string().required(),
+  PRIVATE_KEY: Joi.string().required(),
 })
   .unknown()
   .required()
