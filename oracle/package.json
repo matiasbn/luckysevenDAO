@@ -18,6 +18,7 @@
   "dependencies": {
     "@babel/runtime": "^7.4.5",
     "@hapi/joi": "^16.1.7",
+    "@truffle/contract": "^4.1.13",
     "app-root-path": "^3.0.0",
     "bull": "^3.13.0",
     "dotenv": "^8.2.0",

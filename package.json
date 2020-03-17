@@ -2,13 +2,14 @@
   "name": "luckysevenDAO",
   "version": "0.0.1",
   "description": "Decentralized pseudo random number generator",
-  "main": "oracle/src/index.js",
+  "main": "migrations/2_deploy_oracle.js",
   "repository": "git@github.com:matiasbn/luckysevenDAO.git",
   "author": "Matias Barrios",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@openzeppelin/contracts": "^2.5.0"
+    "@openzeppelin/contracts": "^2.5.0",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

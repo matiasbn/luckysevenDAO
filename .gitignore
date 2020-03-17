@@ -2,3 +2,4 @@ node_modules
 ganache-cli-data
 .vscode
 build
+.env

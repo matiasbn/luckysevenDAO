@@ -8,7 +8,8 @@ dotenv.config({
 
 const environmentVarsSchema = Joi.object({
   PRIVATE_KEY: Joi.string().required(),
-  LOCAL_PROVIDER: Joi.string().required(),
+  LOCAL_PROVIDER_HOST: Joi.string().required(),
+  LOCAL_PROVIDER_PORT: Joi.string().required(),
 })
   .unknown()
   .required()
