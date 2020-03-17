@@ -1,6 +1,6 @@
 {
   "name": "luckysevenDAO",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Decentralized pseudo random number generator",
   "main": "migrations/2_deploy_oracle.js",
   "repository": "git@github.com:matiasbn/luckysevenDAO.git",
