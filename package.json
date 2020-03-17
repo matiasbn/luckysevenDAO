@@ -1,0 +1,10 @@
+{
+  "name": "luckysevenDAO",
+  "version": "0.0.1",
+  "description": "Decentralized pseudo random number generator",
+  "main": "oracle/index.js",
+  "repository": "git@github.com:matiasbn/luckysevenDAO.git",
+  "author": "Matias Barrios",
+  "license": "MIT",
+  "private": false
+}
