@@ -3,11 +3,12 @@ import dotenv from 'dotenv'
 import Joi from '@hapi/joi'
 
 dotenv.config({
-  path: `${appRootPath.path}/.env`,
+  path: `${appRootPath.path}/../.env`,
 })
 
 const environmentVarsSchema = Joi.object({
   PRIVATE_KEY: Joi.string().required(),
+  LOCAL_PROVIDER: Joi.string().required(),
 })
   .unknown()
   .required()
